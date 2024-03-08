@@ -7,28 +7,50 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Blog preview card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="index.css">
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; position: absolute; bottom: -10px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
 
-  Learning
+    <main>
+        <img src="assets/images/illustration-article.svg" class="header-image" alt="">
 
-  Published 21 Dec 2023
+        <section class="content">
+            <div class="category">
+                <p class="learning">Learning</p>
+            </div>
 
-  HTML & CSS foundations
+            <p class="pubished-date">
+                Published 21 Dec 2023
+            </p>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
+            <h3 class="heading">
+                HTML & CSS foundations
+            </h3>
 
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+            <p class="description">
+                These languages are the backbone of every website, defining structure, content, and presentation.
+            </p>
+
+            <div class="author">
+                <div>
+                    <img src="assets/images/image-avatar.webp" alt="" class="user-pic">
+                </div>
+                <p class="author-name">
+                    Greg Hooper
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Greg Hooper -->
+    
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </footer>
 </body>
 </html>
